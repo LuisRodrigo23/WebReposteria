@@ -2,7 +2,7 @@ export function changeHeaderColor(header) {
     header.style.transition = 'background-color 0.3s ease'; // Añadir transición suave
 
     const handleScroll = () => {
-        if (window.scrollY > 0) {
+        if (window.scrollY > 100) {
             header.style.backgroundColor = 'white'; // Azul semi-transparente
         } else {
             header.style.backgroundColor = 'rgba(173, 216, 230, 0.5)'; // Lightblue semi-transparente

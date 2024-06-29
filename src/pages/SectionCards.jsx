@@ -4,7 +4,7 @@ import MotionCards from './MotionCards'
 function SectionCards() {
     return (
         <>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className='mt-[-18%]'>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className='mt-[-18%] max-[1300px]:hidden'>
                 <path fill="#ffffff" fill-opacity="1" d="M0,224L60,229.3C120,235,240,245,360,240C480,235,600,213,720,208C840,203,960,213,1080,197.3C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
             </svg>
             <section className="text-black bg-white body-font mt-[-5rem]">

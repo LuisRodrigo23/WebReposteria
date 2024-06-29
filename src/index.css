@@ -3,8 +3,7 @@
 @import "tailwindcss/utilities";
 
 body {
-    animation: transitionIn 1.9s;
-    /* Reduje la duración a 0.3 segundos */
+    animation: transitionIn 2.3s;
 }
 
 @keyframes transitionIn {
