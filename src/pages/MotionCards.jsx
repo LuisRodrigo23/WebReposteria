@@ -28,7 +28,7 @@ function MotionCards() {
 
     return (
         <>
-            <article className="relative w-full flex flex-shrink-0 overflow-hidden shadow-2xl">
+            <article className=" w-full sticky flex-shrink-0 overflow-hidden shadow-2xl">
                 <div className="rounded-full bg-gray-600 text-white absolute top-5 right-5 text-sm px-2 text-center z-10">
                     <span>{currentIndex}</span>/
                     <span>{images.length}</span>

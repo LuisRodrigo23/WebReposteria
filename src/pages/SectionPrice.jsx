@@ -3,7 +3,7 @@ import '/src/index.css'
 
 function SectionPrice() {
     return (
-        <div className="min-w-screen  bg-white flex items-center  lg:p-10 overflow-hidden relative">
+        <div className="min-w-screen  bg-white flex items-center  lg:p-10 overflow-hidden relative max-[1000px]:flex-col">
             <div className="w-full max-w-6xl rounded bg-[#f8e8c4] shadow-xl p-10 lg:p-20 mx-auto text-gray-800 relative md:text-left px-8">
                 <div className="md:flex items-center -mx-10">
                     <div className="w-full md:w-1/2 px-10 mb-10 md:mb-0">

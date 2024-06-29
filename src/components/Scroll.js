@@ -3,7 +3,7 @@ export function changeHeaderColor(header) {
 
     const handleScroll = () => {
         if (window.scrollY > 0) {
-            header.style.backgroundColor = 'rgba(0, 0, 255, 0.5)'; // Azul semi-transparente
+            header.style.backgroundColor = 'white'; // Azul semi-transparente
         } else {
             header.style.backgroundColor = 'rgba(173, 216, 230, 0.5)'; // Lightblue semi-transparente
         }
