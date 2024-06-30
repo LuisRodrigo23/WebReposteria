@@ -59,7 +59,7 @@ function Navbar() {
                                 </div>
                             </div>
                             <div className="absolute left-[90%] transform -translate-x-1/2 h-[7.1rem] flex items-center justify-center w-full ml-full">
-                                <img src="../src/img/imgLogo.png" alt="Logo" className="h-full w-auto" />
+                                <img src="../src/img/imgLogo.png" alt="Logo" className="h-[6rem] w-auto mr-[45px]" />
                             </div>
                         </nav>
                     </div>

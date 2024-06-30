@@ -4,12 +4,11 @@ import '/src/index.css'
 function SectionPrice() {
     return (
         <div className="min-w-screen bg-white flex flex-col lg:flex-row items-center lg:p-10 overflow-hidden relative space-y-10 lg:space-y-0 lg:space-x-10 mt-[2rem] p-[2rem]">
-            <div className="w-full lg:w-1/2 max-w-6xl rounded bg-[#f8e8c4] shadow-xl p-[4rem] sm:p-12 lg:p-20 mx-auto text-gray-800 relative md:text-left max-[1000px]:W-[45rem]">
+            <div className="w-full lg:w-1/2 max-w-6xl rounded bg-[#f8e8c4] shadow-xl p-[2rem] sm:p-12 lg:p-20 mx-auto text-gray-800 relative md:text-left max-[1000px]:W-[45rem]">
                 <div className="md:flex items-center -mx-4 sm:-mx-10">
-                    <div className="w-full md:w-1/2 px-4 sm:px-10 mb-10 md:mb-0">
-                        <div className="sticky">
-                            <img src="https://static.vecteezy.com/system/resources/previews/025/268/608/non_2x/german-chocolate-cake-with-ai-generated-free-png.png" className="w-full relative z-10" alt="Raincoat" />
-                            <div className="border-4 border-yellow-200 absolute top-10 bottom-10 left-10 right-10 z-0"></div>
+                    <div className="w-auto h-auto md:w-1/2 px-4 sm:px-10 mb-10 md:mb-0">
+                        <div className="relative">
+                            <img src="../src/img/imgFondFresa.png" className="border-full w-full h-ful relative " alt="Raincoat" />
                         </div>
                     </div>
                     <div className="w-full md:w-1/2 px-4 sm:px-10">

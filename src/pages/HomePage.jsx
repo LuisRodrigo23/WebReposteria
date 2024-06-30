@@ -9,7 +9,7 @@ function HomePage() {
             <section className="bg-[#f8e8c4] ">
                 <br />
                 <section className="">
-                    <div className="container mx-auto mb-[6.5%] max-[1000px]:mb-[18%]">
+                    <div className="container mx-auto mb-[5%] max-[1000px]:mb-[20%]">
                         <div className="flex justify-center">
                         </div>
                     </div>
@@ -56,12 +56,7 @@ function HomePage() {
                                     <p className="mt-3 text-gray-500 ">
                                         Pensamiento creativo
                                     </p>
-                                    <p className="mt-3 text-gray-500 ">
-                                        Trabajo en equipo
-                                    </p>
-                                    <p className="mt-3 text-gray-500 ">
-                                        Pensamiento crítico
-                                    </p>
+                                   
 
                                 </div>
                             </div>
