@@ -15,14 +15,14 @@ function SectionCards() {
                         </div>
                         <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
                             <h1 className="sm:w-2/5 text-black font-medium title-font text-2xl mb-2 sm:mb-0">
-                                Nuestros servicios
+                                Nuestros Platillos
                             </h1>
 
                         </div>
                     </div>
                     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                            <div className="rounded-lg h-64 overflow-hidden">
+                            <div className="rounded-lg h-[30rem] overflow-hidden">
                                 <img alt="content" className="object-cover object-center h-full w-full" src="../src/img/imgFresas.jpg" />
                             </div>
                             <h2 className="text-xl font-medium title-font text-white mt-5">Divisas</h2>
@@ -45,8 +45,8 @@ function SectionCards() {
                             </a>
                         </div>
                         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                            <div className="rounded-lg h-64 overflow-hidden">
-                                <img alt="content" className="object-cover object-center h-full w-full" src="../src/img/imgFresasConIn.jpg" />
+                            <div className="rounded-lg h-[30rem] overflow-hidden">
+                                <img alt="content" className="object-cover object-center h-full w-full" src="../src/img/imgLimon.jpg" />
                             </div>
                             <h2 className="text-xl font-medium title-font text-white mt-5">Transferencias</h2>
                             <p className="text-base leading-relaxed mt-2">
@@ -68,7 +68,7 @@ function SectionCards() {
                             </a>
                         </div>
                         <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
-                            <div className="rounded-lg h-64 overflow-hidden">
+                            <div className="rounded-lg h-[30rem] overflow-hidden">
                                 <img alt="content" className="object-cover object-center h-full w-full" src="../src/img/imgOreo.jpg" />
                             </div>
                             <h2 className="text-xl font-medium title-font text-white mt-5">Estados de cuenta</h2>
