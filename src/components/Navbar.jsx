@@ -20,7 +20,7 @@ function Navbar() {
 
     return (
         <>
-            <header style={{ backgroundColor: 'rgba(173, 216, 230, 0.5)', transition: 'background-color 0.3s ease' }}
+            <header style={{ backgroundColor: 'white', transition: 'background-color 0.3s ease' }}
                 className='fixed top-0 w-full bg-white shadow-lg z-10'>
                 <div className="py-10 px-2 lg:mx-4 xl:mx-12">
                     <div className="">
@@ -40,15 +40,15 @@ function Navbar() {
                             <div id="main-nav" className={`w-full flex-grow lg:flex items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'}`}>
 
                                 <div className=" lg:flex-grow mt-2 animated jackinthebox xl:mx-8 text-[20px]">
-                                    <a href="/"
+                                    <a href={"/"}
                                         className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                         INICIO
                                     </a>
-                                    <a href={"/proyects"}
+                                    <a href={"#sectionCards"}
                                         className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                         MIS PRODUCTOS
                                     </a>
-                                    <a href={"/sobreMi"}
+                                    <a href={""}
                                         className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                         CONTACTANOS
                                     </a>

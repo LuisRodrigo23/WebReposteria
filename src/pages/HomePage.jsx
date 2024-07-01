@@ -6,7 +6,7 @@ function HomePage() {
     return (
         <>
             <Navbar />
-            <section className="bg-[#f8e8c4] ">
+            <section className="bg-[rgb(255,192,203)] ">
                 <br />
                 <section className="">
                     <div className="container mx-auto mb-[5%] max-[1000px]:mb-[20%]">
@@ -69,7 +69,7 @@ function HomePage() {
 
                                     <div className='w-[full] h-full'>
                                         <div className="mt-5">
-                                            <img className="w-auto h-auto rounded-md mx-[auto]" src="../src/assets/iconSvg1.svg"
+                                            <img className="w-auto h-auto rounded-md mx-[auto]" src="../src/assets/iconSvg2.svg"
                                                 alt="Graphic Design" />
                                         </div>
                                     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
 import '/src/index.css'
+import Footer from '../components/Footer';
 
 function SectionPrice() {
     return (
-        <div className="min-w-screen bg-white flex flex-col lg:flex-row items-center lg:p-10 overflow-hidden relative space-y-10 lg:space-y-0 lg:space-x-10 mt-[2rem] p-[2rem]">
+        <><div className="min-w-screen bg-white flex flex-col lg:flex-row items-center lg:p-10 overflow-hidden relative space-y-10 lg:space-y-0 lg:space-x-10 mt-[2rem] p-[2rem]">
             <div className="w-full lg:w-1/2 max-w-6xl rounded bg-[#f8e8c4] shadow-xl p-[2rem] sm:p-12 lg:p-20 mx-auto text-gray-800 relative md:text-left max-[1000px]:W-[45rem]">
                 <div className="md:flex items-center -mx-4 sm:-mx-10">
                     <div className="w-auto h-auto md:w-1/2 px-4 sm:px-10 mb-10 md:mb-0">
@@ -11,7 +12,7 @@ function SectionPrice() {
                             <img src="../src/img/imgFondFresa.png" className="border-full w-full h-ful relative " alt="Raincoat" />
                         </div>
                     </div>
-                    <div className="w-full md:w-1/2 px-4 sm:px-10">
+                    <div className="w-full md:w-1/2 px-2 sm:px-10">
                         <div className="mb-10">
                             <h1 className="font-bold uppercase text-2xl mb-5">Men's Ragged <br />Waterproof Jacket</h1>
                             <p className="text-sm">
@@ -83,6 +84,9 @@ function SectionPrice() {
                 </div>
             </div>
         </div>
+            <Footer />
+        </>
+
     );
 }
 
