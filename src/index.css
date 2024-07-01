@@ -3,13 +3,13 @@
 @import "tailwindcss/utilities";
 
 body {
-    animation: transitionIn 2.3s;
+    animation: transitionIn 1.3s;
 }
 
 @keyframes transitionIn {
     from {
         opacity: 0;
-        transform: rotateX(-20deg);
+        transform: rotateX(-8deg);
     }
 
     to {

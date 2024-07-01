@@ -44,18 +44,19 @@ function Navbar() {
                                         className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                         INICIO
                                     </a>
-                                    <a href={"#sectionCards"}
+                                    <a href={"#btnMotionCards"}
                                         className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
-                                        MIS PRODUCTOS
+                                        PRODUCTOS
                                     </a>
-                                    <a href={""}
-                                        className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
-                                        CONTACTANOS
-                                    </a>
-                                    <a href={"/contactame"}
+                                    <a href="#idPage"
                                         className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
                                         SOBRE NOSOTROS
                                     </a>
+                                    <a href={"#footerId"}
+                                        className="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-blue-700  mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                                        CONTACTANOS
+                                    </a>
+
                                 </div>
                             </div>
                             <div className="absolute left-[90%] transform -translate-x-1/2 h-[7.1rem] flex items-center justify-center w-full ml-full">

@@ -46,24 +46,24 @@ function HomePage() {
                                     </svg>
                                 </span>
                                 <div className="mt-4 md:mx-4 md:mt-0">
-                                    <h1 className="text-2xl font-semibold text-gray-700 capitalize ">Nuestros sevicios</h1>
-                                    <p className="mt-3 text-gray-500 ">
-                                        Comunicacion
+                                    <h1 className="text-2xl font-semibold text-black capitalize ">Nuestros valores</h1>
+                                    <p className="mt-3 text-black ">
+                                        Servicio al Cliente
                                     </p>
-                                    <p className="mt-3 text-gray-500 ">
-                                        Flexibidad
+                                    <p className="mt-3 text-black ">
+                                        Calidad
                                     </p>
-                                    <p className="mt-3 text-gray-500 ">
-                                        Pensamiento creativo
+                                    <p className="mt-3 text-black ">
+                                        Integridad y Pasion
                                     </p>
-                                   
+
 
                                 </div>
                             </div>
 
                         </div>
 
-                        <div className="flex">
+                        <div className="flex" id='idPage'>
                             <div className='mt-[25px] w-full ml-[10rem] max-[1000px]:mx-[auto]'>
                                 <div className="mt-[auto]">
 
