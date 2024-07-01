@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return (
 
-        <footer className="bg-neutral-200 text-center text-white dark:bg-neutral-600 w-full" id='footerId'>
+        <footer className=" text-center text-white bg-neutral-600 w-full" id='footerId'>
             <div className="container pt-[3rem] ">
                 <div className="mb-[2rem] flex justify-center ">
                     <h1 className='mr-[5%] text-[15px]'>Contactanos:</h1>
@@ -45,12 +45,12 @@ function Footer() {
 
             {/* <!--Copyright section--> */}
             <div
-                className="bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200">
-                © 2023 Copyright: Luis
+                className="p-4 text-center bg-neutral-700 text-neutral">
+                © 2023 Copyright: R
                 <a
-                    className="text-neutral-800 dark:text-neutral-400"
+                    className="text-white"
                     href="https://www.instagram.com/luis_roodrigoo/"
-                >Rodrigo</a>
+                >odrigoVb</a>
             </div>
         </footer>
     );
